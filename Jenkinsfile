@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'gradlew build'
+        sh 'mvnw clean build'
       }
     }
 
